@@ -1,23 +1,24 @@
 import logo from "./logo.svg";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./assets/styles/style.css";
-import Header from "./components/Header";
-import Footer from "./components/Footer";
 import Home from "./pages/home/Home";
-
-import MainLayout from "./pages/MainLayout/index";
+import Invoices from "./pages/MainLayout/Invoices";
+import Customers from "./pages/MainLayout/Customers";
 
 function App() {
   return (
     <Router>
       {/* <Header /> */}
-      <main className="main">
+      {/* <main className="main"> */}
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/admin" element={<MainLayout />} />
+          <Route path="/admin/invoices" element={<Invoices />} />
+          <Route path="/admin/customers" element={<Customers />} />
+
+          {/*  */}
         </Routes>
-      </main>
-      <Footer />
+      {/* </main> */}
+      {/* <Footer /> */}
     </Router>
   );
 }
