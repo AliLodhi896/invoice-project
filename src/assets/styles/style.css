@@ -1,20 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Share+Tech+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Share+Tech+Mono&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
 
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 :root {
-    --primary-color: #003E39;
-    --secondary-color: #CAFDC6;
-    --third-color: #2047CE;
-    --font-family: 'Work Sans', sans-serif;
-    --primary-hover-color: #307B75;
+  --primary-color: #003e39;
+  --secondary-color: #cafdc6;
+  --third-color: #2047ce;
+  --font-family: "Work Sans", sans-serif;
+  --primary-hover-color: #307b75;
 }
-  
+
 body {
-    font-family: var(--font-family);
-    color: var(--primary-color);
+  font-family: var(--font-family);
+  color: var(--primary-color);
 }
