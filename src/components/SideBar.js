@@ -16,7 +16,7 @@ import TimelineOutlinedIcon from "@mui/icons-material/TimelineOutlined";
 import MenuOutlinedIcon from "@mui/icons-material/MenuOutlined";
 import MapOutlinedIcon from "@mui/icons-material/MapOutlined";
 import AddCircleIcon from "@mui/icons-material/AddCircle";
-import Transactions from "../pages/MainLayout/Transactions";
+import Invoices from "../pages/MainLayout/Invoices";
 
 const Item = ({ title, to, icon, selected, setSelected }) => {
   const theme = useTheme();
@@ -105,7 +105,7 @@ const SideBar = () => {
               />
 
               <Item
-                title="Transactions"
+                title="Sales & Payments"
                 icon={<PeopleOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
@@ -182,7 +182,7 @@ const SideBar = () => {
 
       <div style={{ marginLeft: "10px" }}></div>
 
-      {selected === "Transactions" ? <Transactions /> : ""}
+      {selected === "Invoices Balances" ? <Invoices /> : ""}
     </Box>
   );
 };

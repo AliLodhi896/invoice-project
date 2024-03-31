@@ -10,7 +10,7 @@ function classNames(...classes) {
 
 export default function Header_2() {
   return (
-    <header className="bg-white">
+    <header className="bg-[#F5FAFF">
       <nav
         className="mx-auto flex  items-center justify-between p-6"
         aria-label="Global"

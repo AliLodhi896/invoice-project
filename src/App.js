@@ -13,8 +13,8 @@ function App() {
       {/* <Header /> */}
       <main className="main">
         <Routes>
-          {/* <Route path="/" element={<Home />} /> */}
-          <Route path="/" element={<MainLayout />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/admin" element={<MainLayout />} />
         </Routes>
       </main>
       <Footer />
