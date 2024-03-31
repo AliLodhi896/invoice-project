@@ -4,9 +4,6 @@ import AdminLayout from ".";
 import { Fragment } from "react";
 import { Menu, Transition } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
-import NavigateBeforeIcon from "@mui/icons-material/NavigateBefore";
-import Styles from "../../assets/styles/style.css";
-import { BorderLeft } from "@mui/icons-material";
 import TransationsTable from "../../components/Transactions/TransationsTable";
 
 function classNames(...classes) {
