@@ -13,7 +13,6 @@ export default function PieGraph() {
           ],
         },
       ]}
-      width={800}
       height={200}
     />
   );

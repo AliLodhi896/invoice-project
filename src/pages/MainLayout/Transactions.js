@@ -13,10 +13,10 @@ function classNames(...classes) {
 function Transactions() {
   return (
     <AdminLayout>
-      <div className="flex flex-col p-4 sm:ml-64">
-        <div className="flex flex-rows max-md:flex-col w-full justify-between">
+      <div className="flex flex-col p-4 lg:ml-64">
+        <div className="flex flex-rows max-xl:flex-col w-full justify-between">
           <h2 className="text-4xl text-black font-semibold">Transactions</h2>
-          <div className="flex flex-rows">
+          <div className="flex flex-wrap mt-4 xl:mt-0 flex-rows">
             <button
               type="file"
               class="border border-green-500 text-black hover:bg-green-100 focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"

@@ -18,10 +18,10 @@ function Transactions() {
   return (
     <AdminLayout>
       <div class="container mx-auto">
-        <div className="flex flex-col p-4 sm:ml-64">
+        <div className="flex flex-col p-4 lg:ml-64">
           <div className="flex flex-rows max-md:flex-col w-full justify-between">
             <h2 className="text-4xl text-black font-semibold">Dashboard</h2>
-            <div className="flex flex-rows">
+            <div className="flex flex-rows mt-4 xl:mt-0 ">
               <Menu as="div" className="relative inline-block text-left">
                 <div>
                   <Menu.Button className="border border-green-500 text-black hover:bg-green-100 focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800 inline-flex items-center justify-center gap-x-1.5">
@@ -139,7 +139,7 @@ function Transactions() {
           </div>
 
           <div className="my-8  flex flex-rows gap-2 max-md:flex-col">
-            <div class="w-1/3">
+            <div class="w-full lg:w-1/3">
               <div class="bg-blue-100 p-6 rounded-lg shadow-lg flex flex-col">
                 <img
                   src={TempInvoiceImg}
@@ -250,9 +250,9 @@ function Transactions() {
               </div>
             </div>
 
-            <div class="w-2/3 px-6">
+            <div class="w-full lg:w-2/3 px-6 mt-4 md:mt-0">
               <div>
-                <h2 class="text-xl font-semibold mb-2">Cash Flow</h2>
+                <h2 class=" text-xl font-semibold mb-2">Cash Flow</h2>
                 <div class="flex justify-between">
                   <p class="text-gray-700">
                     Cash coming in and going out of your business.
@@ -281,7 +281,7 @@ function Transactions() {
 
               <div class="mt-3">
                 <h2 class="text-xl font-semibold mb-2">Payable & Owing</h2>
-                <div class="flex">
+                <div class="flex flex-col md:flex-row ">
                   <div class="relative overflow-x-auto flex-1 mr-4">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                       <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
@@ -339,7 +339,7 @@ function Transactions() {
                       </tbody>
                     </table>
                   </div>
-                  <div class="relative overflow-x-auto flex-1 mr-4">
+                  <div class="relative overflow-x-auto flex-1 mr-4 mt-3 md:mt-0">
                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
                       <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                         <tr>
