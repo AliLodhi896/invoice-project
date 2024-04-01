@@ -42,6 +42,12 @@ function Footer() {
               <Link to='#'><li>Careers</li></Link>
               <Link to='#'><li>Press</li></Link>
               <Link to='#'><li>Sitemap</li></Link>
+
+              <Link to='/admin/dashboard'><li>Dashboard</li></Link>
+              <Link to='/admin/invoices'><li>Invoices</li></Link>
+              <Link to='/admin/customers'><li>Customers</li></Link>
+              <Link to='/admin/transactions'><li>Trasactions</li></Link>
+
             </ul>
           </div>
           <div className="footer-column">

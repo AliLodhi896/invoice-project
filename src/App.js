@@ -6,7 +6,6 @@ import Invoices from "./pages/MainLayout/Invoices";
 import Customers from "./pages/MainLayout/Customers";
 import Dashboard from "./pages/MainLayout/Dashboard";
 import Transactions from "./pages/MainLayout/Transactions";
-
 function App() {
   return (
     <Router>

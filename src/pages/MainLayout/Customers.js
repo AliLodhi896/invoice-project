@@ -8,23 +8,23 @@ function Customers() {
       <div className="flex flex-col p-4 lg:ml-64">
         <div className="flex flex-rows max-md:flex-col w-full justify-between">
           <h2 className="text-4xl text-black font-semibold">Customers</h2>
-          <div className="flex flex-rows">
+          <div className="flex flex-rows max-sm:flex-col">
             <button
               type="file"
-              class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+              class="max-md:text-xs focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
             >
               Import from CSV
             </button>
             <button
               type="button"
-              class="focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
+              class="max-md:text-xs focus:outline-none text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:ring-green-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800"
             >
               Add a Customer
             </button>
           </div>
         </div>
-        <div class="flex flex-row mt-8 items-center">
-          <div class="relative w-2/6 ">
+        <div class="flex flex-row mt-8 max-md:flex-col items-center">
+          <div class="relative w-2/6 max-md:w-full ">
             <input
               type="search"
               id="location-search"

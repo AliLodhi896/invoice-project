@@ -12,7 +12,7 @@ export default function Header_2() {
   return (
     <header className="bg-[#F5FAFF]">
       <nav
-        className="mx-auto flex  items-center justify-between p-6"
+        className="mx-auto flex  flex-row max-md:flex-col items-center justify-between p-6"
         aria-label="Global"
       >
         <div className="flex lg:flex-1">
@@ -21,11 +21,11 @@ export default function Header_2() {
           </a>
         </div>
 
-        <div className="flex flex-1 justify-end">
-          <Menu as="div" className="relative inline-block text-left">
+        <div className="flex flex-1 justify-end max-md:hidden  ">
+          <Menu as="div" className="relative inline-block text-left ">
             <div>
               <Menu.Button className="inline-flex w-full justify-center gap-x-1.5 rounded-md bg-blue-100 px-3 py-2 text-sm font-semibold text-gray-900 shadow-sm  hover:bg-blue-200">
-                Wrap Style
+                Style Wrap
                 <ChevronDownIcon
                   className="-mr-1 h-5 w-5 text-gray-400"
                   aria-hidden="true"
@@ -42,7 +42,7 @@ export default function Header_2() {
               leaveFrom="transform opacity-100 scale-100"
               leaveTo="transform opacity-0 scale-95"
             >
-              <Menu.Items className=" right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+              <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                 <div className="py-1">
                   <Menu.Item>
                     {({ active }) => (
@@ -55,7 +55,7 @@ export default function Header_2() {
                           "block px-4 py-2 text-sm"
                         )}
                       >
-                        Wrap Style 1
+                        Style Wrap 1
                       </a>
                     )}
                   </Menu.Item>
@@ -70,7 +70,7 @@ export default function Header_2() {
                           "block px-4 py-2 text-sm"
                         )}
                       >
-                        Wrap Style 2
+                        Style Wrap 2
                       </a>
                     )}
                   </Menu.Item>
@@ -85,7 +85,7 @@ export default function Header_2() {
                           "block px-4 py-2 text-sm"
                         )}
                       >
-                        Wrap Style 3
+                        Style Wrap 3
                       </a>
                     )}
                   </Menu.Item>
